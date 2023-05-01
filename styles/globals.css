@@ -18,5 +18,6 @@ a {
 }
 
 body {
-  background-color: #88effd;
+  background-image: url("../public/bg-image.jpg");
+  background-color: #383838;
 }
