@@ -1,5 +1,5 @@
 import { PropTypes } from 'prop-types';
-import { Button, Card } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 import { signOut } from '../utils/auth';
 import { useAuth } from '../utils/context/authContext';
 
@@ -8,13 +8,20 @@ function Home() {
 
   return (
     <>
-      <div className="mt-5 d-flex flex-wrap">
-        <div className="d-flex flex-column">
-          <Card.Img src="https://lh3.googleusercontent.com/a/AGNmyxbeTrjlx4Q_ViUW6E-EL7yWNHqWz7p7himTjBQUIA=s288" style={{ height: '400px', width: '350px' }} alt={user.displayName} />
-        </div>
-        <div className="text-white ms-5 details" style={{ width: '700px' }}>
+      <div className="mt-5 d-flex flex-wrap justify-content-center">
+        <div className="text-white justify-content-center" style={{ maxWidth: '100%', padding: '0px', margin: '0px' }}>
           <h1 style={{ color: 'white' }}>Welcome, {user.displayName}! </h1>
-          <p style={{ color: 'white' }}>Check out what is new!</p>
+          <p style={{
+            display: 'flex',
+            color: 'white',
+            margin: '0px',
+            padding: '0px',
+            maxWidth: '100%',
+            justifyContent: 'center',
+          }}
+          >
+            Check out whose new!
+          </p>
         </div>
       </div>
       <div
