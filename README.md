@@ -39,6 +39,11 @@ React, JavaScript, HTML, CSS, FirebaseDB.
 
 
 
-[AppOverview]: https://ibb.co/tQ5rfBz
-[ViewCard]: public\Capture2.PNG
-[CreateMember]: public\Capture3.PNG
+[AppOverview]: https://i.pinimg.com/564x/76/55/c3/7655c3231421331e97c56ae8a5b92417.jpg
+[ViewCard]: https://i.pinimg.com/564x/6b/b2/09/6bb209f98d7ecaac4b99de0d4d9e8bdf.jpg
+[CreateMember]: https://i.pinimg.com/564x/b3/27/8c/b3278c9d59c3f4e11bc2153b288cbb6d.jpg
+
+
+## Contributers
+
+Jovanni Feliz [Github Profile](https://github.com/JFelz)
